@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="employee.xsl"?>
+<employees>
+  <employee>
+    <name>John Doe</name>
+    <phones>
+      <phone Type="home">123-456-7890</phone>
+      <phone Type="mobile">987-654-3210</phone>
+    </phones>
+    <addresses>
+      <address>
+        <Street>Main Street</Street>
+        <BuildingNumber>123</BuildingNumber>
+        <Region>East</Region>
+        <City>New York</City>
+        <Country>USA</Country>
+      </address>
+      <address>
+        <Street>Second Street</Street>
+        <BuildingNumber>456</BuildingNumber>
+        <Region>West</Region>
+        <City>Los Angeles</City>
+        <Country>USA</Country>
+      </address>
+    </addresses>
+    <email>john@example.com</email>
+  </employee>
+  <employee>
+    <name>Jane Smith</name>
+    <phones>
+      <phone Type="work">555-123-4567</phone>
+    </phones>
+    <addresses>
+      <address>
+        <Street>Third Street</Street>
+        <BuildingNumber>789</BuildingNumber>
+        <Region>North</Region>
+        <City>Chicago</City>
+        <Country>USA</Country>
+      </address>
+    </addresses>
+    <email>jane@example.com</email>
+  </employee>
+</employees>
